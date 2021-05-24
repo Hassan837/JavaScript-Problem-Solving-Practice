@@ -1,19 +1,22 @@
-function red(){
- 
+// this function is for red button showing alert messsage
+function red() {
+
     alert('This is the alert for button_Red button');
 
 }
 
 
-function blue(){
- 
+// this function is for blue button showing alert message
+function blue() {
+
     alert('This is the alert for button_Blue button');
 
 }
 
 
-function green(){
- 
+// this function is for green button showing alert message
+function green() {
+
     alert('This is the alert for button_blue button');
 
 }

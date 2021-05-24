@@ -1,0 +1,21 @@
+.btn{
+    color: red;
+    font-size: 25px;
+    font-family: cursive;
+    border-radius: 6px;
+}
+
+
+.btn1{
+    color: blue;
+    font-size: 27px;
+    font-family: monospace;
+    border-radius: 8px;
+}
+
+.btn{
+    color: green;
+    font-size: 27px;
+    font-family: fantasy;
+    border-radius: 6px
+}
