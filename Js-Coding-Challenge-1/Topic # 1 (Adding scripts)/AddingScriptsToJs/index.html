@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
-<!--inline Js-->
 
-<button onclick="alert('This Inline J.S')" > Click it!</button>
+    <!--inline Js-->
 
-<br><br>
+    <button onclick="alert('This Inline J.S')"> Click it!</button>
 
-<!--Internal Js -->
+    <br><br>
 
-<button onclick="internal()"> Click it!</button>
+    <!--Internal Js -->
 
-<Script>
-    function internal(){
-        alert('This Internal J.s');
+    <button onclick="internal()"> Click it!</button>
 
-    }
-</Script>
-<br><br>
+    <Script>
+        function internal() {
+            alert('This Internal J.s');
+
+        }
+    </Script>
+    <br><br>
 
 
-<!-- External J.S-->
+    <!-- External J.S-->
 
-<button onclick="External()"> Click it!</button>
-<script src="app.js"></script>
+    <button onclick="External()"> Click it!</button>
+    <script src="app.js"></script>
 
 </body>
+
 </html>
