@@ -16,7 +16,7 @@ function string(){
 
 }
 
-// this function is for string
+// this function is for boolean
 function boolean(){
  
     let isPass = 10 > 9;
