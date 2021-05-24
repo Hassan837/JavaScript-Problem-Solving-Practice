@@ -11,28 +11,25 @@
 
 <body>
 
-    <!--inline Js-->
-
-    <button onclick="alert('This Inline J.S')"> Click it!</button>
-
+    <!--button for numeric-->
+    <h3>This Button is for Printing Number</h3>
+    <button onclick="numeric()"> Click it!</button>
+    <p id="num"></p>
     <br><br>
 
-    <!--Internal Js -->
-
-    <button onclick="internal()"> Click it!</button>
-
-    <Script>
-        function internal() {
-            alert('This Internal J.s');
-
-        }
-    </Script>
+    <!--button for string -->
+    <h3>This Button is for Printing String:</h3>
+    <button onclick="string()"> Click it!</button>
+    <p id="str"></p>
+        
     <br><br>
 
 
-    <!-- External J.S-->
-
-    <button onclick="External()"> Click it!</button>
+    <!-- button for boolean-->
+    <h3>This Button is for Printing boolean</h3>
+    <button onclick="boolean()"> Click it!</button>
+    <p class="boo"></p>
+    
     <script src="app.js"></script>
 
 </body>
