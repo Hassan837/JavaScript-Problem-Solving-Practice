@@ -26,4 +26,5 @@ else if (d == '/'){
 
 else {
     alert("You Enter The Wrong operator");
+    
 }
