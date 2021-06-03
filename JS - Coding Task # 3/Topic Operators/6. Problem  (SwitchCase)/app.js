@@ -1,4 +1,4 @@
-let percentage = parseInt (prompt("Enter your color"));
+ let percentage = parseInt (prompt("Enter your color"));
 
 
 switch(true){
