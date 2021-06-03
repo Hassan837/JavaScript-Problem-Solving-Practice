@@ -5,6 +5,6 @@ function addTwonumbers(Num1,Num2) {
     return Num1 + Num2;
 }
 
-console.log(addTwonumbers(10,20));
+console.log(addTwonumbers(20,80));
 
 
