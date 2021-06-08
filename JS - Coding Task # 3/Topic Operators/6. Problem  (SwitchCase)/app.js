@@ -1,49 +1,52 @@
- let percentage = parseInt (prompt("Enter your Percentage"));
+function result(){
+    var marks = prompt("Enter your percentage ");
+    pass = parseFloat(marks); 
 
-console.log(percentage);
-switch(){
-    case percentage> 85:
-    
-        alert("The Grade is 'A'");
-    
-    break;
+    if(pass > 85) {
+        IsPass = 'A';
+    }
+    else if (pass > 80 && pass <=85) {
+        IsPass = 'A-';
+    }
+    else if (pass > 70 && pass <=80) {
+        IsPass = 'B';
+    }
+    else if (pass > 60 && pass <=70) {
+        IsPass = 'C';
+    }
+    else if (pass > 40 && pass <=60) {
+        IsPass = 'D';
+    }
+    else if (pass <= 40 && pass <=35) {
+        IsPass = 'E';
+    }
 
-    case percentage <= 85:
-    //case percentage > 80:
-        alert("The Grade is 'A-'");
-    break;
-    
-    case percentage <= 80:
-    //case percentage > 70:
-        alert("The Grade is 'B'");
-    
-    break;
+    switch (IsPass) {
+      case 'A': 
+        alert('You passed with A grade');
+        document.querySelector("h1").innerHTML = "BRAVO! You are the Topper!"
+        break;
+      case 'A-':
+        alert('You passed with A- grade');
+        document.querySelector("h1").innerHTML = "You got a A- , Good Work!"
+        break;
+      case 'B':
+        alert('You passed with B grade');
+        document.querySelector("h1").innerHTML = "You got a B , Try to improve!"
+        break;
+      case 'C':
+        alert('You passed with C grade');
+        document.querySelector("h1").innerHTML = "You got a C , Work hard!"
+        break;
+      case 'D':
+        alert('You passed with D grade');
+        document.querySelector("h1").innerHTML = "You got a D , Work harder!"
+        break;
+      case 'E':
+        alert('You Failed.');
+        document.querySelector("h1").innerHTML = "You are Failed!"
+        break;
+    }
 
-    case percentage <= 70:
-    //case percentage > 60:
-        alert("The Grade is 'C'");
     
-    break;
-
-    case percentage <= 60:
-    //case percentage > 40:
-        alert("The Grade is 'D'");
-    
-    break;
-
-    case percentage <= 40:
-    
-        alert("The Grade is 'E'");
-    
-    break;
-
-    case percentage <= 35:
-    
-        alert("Canidate Failed");
-    
-    break;
-    default:
-        alert("default condition");    
-    
-        //console.log("default condition");
 }
